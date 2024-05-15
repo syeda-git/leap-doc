@@ -1,11 +1,11 @@
 #Project Information
-site_name: HCL Leap 9.3.6 Help Center
+site_name: HCL Leap 9.3.5 Help Center
 site_description: >
   A next-gen documentation site for HCL Leap.
-site_url: https://opensource.hcltechsw.com/leap-doc/9.3.6/
+site_url: https://syeda-git.github.io/leap-doc/docs/syed/9.3.5/
 use_directory_urls: false
-docs_dir: 9.3.6
-site_dir: docs/syed/9.3.6
+docs_dir: 9.3.5
+site_dir: docs/syed/9.3.5
 
 # Theme Configuration
 theme:
@@ -116,7 +116,7 @@ nav:
             - Prepare a namespace: helm_prepare_namespace.md
             - Prepare configuration: prepare_config_helm.md
             - Load images: helm_load_images.md
-            - Persistent Volume Claims: helm_persistent_volume.md
+            - PersistentVolumeClaims: helm_persistent_volume.md
             - Provide admin user a custom secret: helm_admin_customsecret.md
             - Probes configuration in values.yaml file: helm_probes_config_valuesfile.md
             - SAML configuration: helm_saml_config.md
@@ -126,9 +126,7 @@ nav:
             - Configure Database: helm_configure_db.md
             - Configure SMTP: helm_configure_smtp.md
             - Configure LDAP: helm_configure_ldap.md
-            - Configure SSL: helm_configure_ssl.md
             - Service Catalog: helm_service_catalog.md
-            - Deploy Custom Extensions: helm_deploy_custom_extension.md
             - Leap properties: helm_leap_properties.md
             - JVM options: helm_jvm_options.md
             - Changing the log level: helm_changing_log_level.md
@@ -152,7 +150,6 @@ nav:
         - administering_leap.md
         - Backing up and restoring the DB2 database: ad_managing_db2_database.md
         - Strict CSP: leap_strict_csp.md
-        - Admin Configuration Page: admin_config_ui.md
         - Admin Application Dashboard: admin_application_dashboard.md  
         # Configuring
         - Configuring:
